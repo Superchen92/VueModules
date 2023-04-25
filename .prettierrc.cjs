@@ -1,0 +1,1 @@
+module.exports = { ...require('@urit-web/eslint-config-prettier') };

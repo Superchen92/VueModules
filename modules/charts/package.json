@@ -1,0 +1,14 @@
+{
+  "name": "charts",
+  "private": true,
+  "version": "0.0.2",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:lib": "vite build --config ./build/lib.js"
+  },
+  "dependencies": {
+    "echarts": "^5.3.1"
+  }
+}

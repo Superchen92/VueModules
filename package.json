@@ -1,0 +1,31 @@
+{
+  "name": "vue-modules",
+  "author": "chenyuchao",
+  "version": "1.0.0",
+  "description": "VueModules",
+  "scripts": {
+    "dev:charts": "cd modules/charts && npm run dev",
+    "build:charts": "cd modules/charts && npm run build:lib"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@urit-web/eslint-config-basic": "^0.1.2",
+    "@urit-web/eslint-config-prettier": "^0.1.2",
+    "@urit-web/eslint-config-vue": "^0.1.2",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-vue": "^9.9.0",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
+    "pretty-quick": "^3.1.3",
+    "vite": "^4.0.0",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-remove-console": "^2.1.0"
+  }
+}
